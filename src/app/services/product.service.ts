@@ -39,7 +39,7 @@ export class ProductService {
         console.log(data.description);
          return this._http.post(postUrl,
             JSON.stringify(data),
-            { headers: { 'Content-Type': 'application/json' } })
+            { headers: new HttpHeaders({ 'Content-Type': 'application/json' }) })
             .map(res=>{result= res})
             .catch(this.handleError);
     }
