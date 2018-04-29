@@ -24,6 +24,7 @@
     "@angular/platform-browser": "^4.2.4",
     "@angular/platform-browser-dynamic": "^4.2.4",
     "@angular/router": "^4.2.4",
+    "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "express": "^4.16.2",
     "rxjs": "^5.4.2",
@@ -55,5 +56,5 @@
   "engines": {
     "node": "6.11.0",
     "npm": "3.10.10"
-  }
+   }
 }
